@@ -1,0 +1,4 @@
+export const commonConstants = {
+  SET_SUCCESS: "COMMON_SET_SUCCESS",
+  GETALL_SUCCESS: "COMMON_GETALL_SUCCESS",
+};

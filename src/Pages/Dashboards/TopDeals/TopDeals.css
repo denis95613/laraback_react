@@ -1,0 +1,64 @@
+/* top deal */
+.featured_deal {
+  justify-content: space-between;
+}
+.featured_deal .card-deal{
+  box-shadow: 0 10px 25px rgb(222 200 237 / 20%);
+  position: relative;
+  background-color: #fff;
+  border: 0.03px solid #dec8ed;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 25px 20px;
+  width: calc(20% - 20px);
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.featured_deal .card-titles span{
+  background: #6426d2;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 7px;
+  border-radius: 3px 0 0 3px;
+  text-transform: uppercase;
+  height: 28px;
+  margin-right: -20px;
+}
+.featured_deal .card-deal h6{
+  color: #6426d2;
+  font-weight: 600;
+}
+.featured_deal .card-deal h2{
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration-line: line-through;
+}
+.featured_deal .card-deal h4{
+  color:#ff790e;
+  font-size: 16px;
+}
+.featured_deal .card-deal .hover_content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-100%);
+}
+.featured_deal .card-deal:hover .hover_content{
+  transform: translateX(0);
+}
+.featured_deal .card-deal .hover_content a.view_all:hover{
+  text-decoration: underline !important;
+}
+.featured_deal .card-deal .shop_now{
+  font-size: 16px;
+  max-width: 175px;
+  padding: 9px 45px !important;
+}
+.featured_deal .card-deal .hover_content a.view_title{
+  font-size: 16px;
+  color: #6426d2;
+  margin: 30px 0 20px 0;
+}

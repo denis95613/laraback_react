@@ -1,0 +1,25 @@
+/* category */
+.category_store h2{
+  border-bottom: 1px solid #dec8ed;
+}
+.category_store_itemList{
+  width: calc(12.5% - 15px);
+  cursor: pointer;
+}
+.category_store_itemList:hover p{
+  text-decoration: underline;
+}
+.category_store_itemList:hover img{
+  transform: translateY(-5px);
+}
+.category_store_itemList p{
+  font-weight: 500;
+}
+.category_store_list .category_store_item{
+  padding: 2rem;
+  background: #fff;
+}
+.category_store_list .category_store_item img{
+  max-height: 50px;
+  transition: all 0.3s;
+}
